@@ -1,0 +1,113 @@
+
+ul{
+    list-style-type: none;
+}
+
+li, a, button, p, h2, label{
+    font-family: "roboto",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.derecha{
+    padding-top: 15px;
+}
+.derecha li{
+    display:inline-block;
+    padding: 20px;
+}
+
+.botonadolfo{
+    background-color: #E3CFF3;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: #B688DF;
+}
+
+.separador{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.texto{
+    padding-right: 20px;
+}
+
+.carta{
+    padding-top: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #E3CFF3;
+}
+
+footer h2{
+    margin: 50px;
+}
+
+.container-reg{
+    width: 500px;
+    padding: 20px;
+    background: #E3CFF3;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+
+.titulo{
+    text-align: center;
+    border: solid #B688DF;
+    border-style: dashed;
+    padding: 15px;
+}
+
+.padre{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.nombre,.apellidos,.email,.contraseña{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    padding-top: 20px;
+    padding: 10px;
+}
+
+input:focus{
+    outline: solid #B688DF;
+}
+
+.cuenta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.container-in{
+    width: 500px;
+    padding: 20px;
+    background: #E3CFF3;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 200PX;
+    border-radius: 10px;
+}
